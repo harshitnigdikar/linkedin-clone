@@ -11,3 +11,15 @@
     color : black;
 
 }
+
+.headerOption__title {
+    font-size : 12px;
+    font-weight: 400;
+} 
+
+.headerOption__icon {
+    object-fit: contain;
+    height : 25px !important;
+    width : 25px !important;
+}
+
