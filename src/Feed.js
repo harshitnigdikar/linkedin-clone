@@ -11,6 +11,7 @@ import { db } from "./firebase";
 import firebase from "firebase";
 import { useSelector } from "react-redux";
 import { selectUser } from "./features/userSlice";
+import FlipMove from "react-flip-move";
 
 
 function Feed() {
@@ -70,6 +71,7 @@ function Feed() {
             </div> 
 
             {/* Posts */} 
+            <FlipMove>
             {posts.map(({ id, data : {name , description, message, photoUrl } }) => (
                 <Post 
                   key = {id}
@@ -79,8 +81,9 @@ function Feed() {
                   photoUrl = {photoUrl} 
 
                   //we give every a key so that the react only renders the new element that it push into the list instead of rendering the entire list.
-                />
+                />   
             ))}
+            </FlipMove>
         </div>
     )
 }
