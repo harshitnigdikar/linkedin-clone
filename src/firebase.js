@@ -1,12 +1,12 @@
 import firebase from "firebase";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBi41SWPVDv0JYXSvuaD4jonds1K5geFUM",
-    authDomain: "linkedin-clone-ddeac.firebaseapp.com",
-    projectId: "linkedin-clone-ddeac",
-    storageBucket: "linkedin-clone-ddeac.appspot.com",
-    messagingSenderId: "687083415734",
-    appId: "1:687083415734:web:d5d57b1bde0590cba69e17"
+    apiKey: "abcd",
+    authDomain: "abcd",
+    projectId: "abcd",
+    storageBucket: "abcd",
+    messagingSenderId: "abcd",
+    appId: "abcd"
   };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
